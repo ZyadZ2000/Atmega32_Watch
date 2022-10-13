@@ -1,0 +1,18 @@
+#include <avr/io.h>
+#include <avr/interrupt.h>
+
+
+
+
+
+
+
+int main(void){
+	DDRC |= 0x0F;
+	DDRA |= 0x3F;
+	SREG |= (1<<7);
+	for(;;){
+
+	}
+	return 0;
+}

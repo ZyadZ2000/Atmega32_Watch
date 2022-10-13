@@ -1,0 +1,17 @@
+01:04:58 **** Incremental Build of configuration Debug for project watch ****
+make all 
+Invoking: Print Size
+avr-size --format=avr --mcu=atmega32 watch.elf
+AVR Memory Usage
+----------------
+Device: atmega32
+
+Program:    5730 bytes (17.5% Full)
+(.text + .data + .bootloader)
+
+Data:         16 bytes (0.8% Full)
+(.data + .bss + .noinit)
+
+
+Finished building: sizedummy
+ 
